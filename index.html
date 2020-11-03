@@ -1,70 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Anisur Rahaman Shahin">
+        <link rel="shortcut icon" type="image/x-icon" href="Resources/Images/fav.png">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <!-- Front -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Resources/Fonts/css/all.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Css -->
+        <link rel="stylesheet" href="resources/css/style.css">
+        <!-- Responsive -->
+        <link rel="stylesheet" href="resources/css/responsive.css">
+        <title>Pakege</title>
+    </head>
+    <body>
 
-<head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!-- main Js -->
+        <script src="resources/js/wow.min.js"></script>
+        <script src="resources/js/main.js"></script>
+        <script>
+            $('.scroll-top').click(function(){
+                $('html,body').animate({
+                    scrollTop : 0
+                }),100;
+            });
+            $('.scroll-top').hide();
+            $(window).scroll(function(){
+                var count = $(this).scrollTop();
 
-  <title>package</title>
-
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="resources/vendor/bootstrap/css/bootstrap.min.css">
-  <!-- nav-scroll -->
-  <link  rel="stylesheet" href="resources/css/scrolling-nav.css">
-  <!-- FontAwesome -->
-  <link rel="stylesheet" href="resources/Fonts/css/all.min.css">
-  <!-- animated css -->
-  <link rel="stylesheet" href="resources/css/animate.css">
-  <!-- css file -->
-  <link rel="stylesheet" href="resources/css/style.css">
-  <!-- responsive file -->
-  <link rel="stylesheet" href="resources/css/responsive.css">
-
-</head>
-
-<body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
- <!-- end navigation -->
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="resources/vendor/jquery/jquery.min.js"></script>
-  <script src="resources/vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!-- Plugin JavaScript -->
-  <script src="resources/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <!-- Custom JavaScript for this theme -->
-  <script src="resources/js/scrolling-nav.js"></script>
-  <!-- wowJs -->
-  <script src="resources/js/wow.min.js"></script>
-  <script>
-      new WOW().init();
-    
-    </script>
-
-</body>
-
+                if(count < 100){
+                    $('.scroll-top').hide()
+                }
+                else{
+                    $('.scroll-top').show();
+                    ;
+                }
+            });
+        </script>
+    </body>
 </html>

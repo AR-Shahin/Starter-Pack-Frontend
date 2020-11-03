@@ -1,35 +1,42 @@
-/*=====================
 
-Project name : 
-Designer     :
-email        :
-========================*/
-/* Documentation
-
->>>Section<<<
-
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-=========================*/
-
-
-
-/* basic setup */
-
+/* BASIC SETUP*/
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+body{
+ 
+}
+hr{
+    background: #2196F3;
+    height: .5px;
+}
+p{
+  
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section{
+    padding: 60px 0;
+}
+h3{
+ 
+}
 
+h4{
 
+}
 
+.card{
+ 
+}
+.card-body{
+
+}

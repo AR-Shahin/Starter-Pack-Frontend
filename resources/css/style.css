@@ -39,3 +39,9 @@ h4{
 .bg_green{
     background: green;
 }
+.text_white{
+    color: #fff;
+}
+.text_black{
+    color: #111;
+}

@@ -12,8 +12,7 @@ body{
  
 }
 hr{
-    background: #2196F3;
-    height: .5px;
+ 
 }
 p{
   
@@ -34,9 +33,9 @@ h4{
 
 }
 
-.card{
- 
+.bg_red{
+    background: red;
 }
-.card-body{
-
+.bg_green{
+    background: green;
 }

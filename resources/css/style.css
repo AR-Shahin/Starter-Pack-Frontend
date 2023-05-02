@@ -1,3 +1,13 @@
+/*
+    RULES
+    ----------------------
+    -> When you define a class or ID use kebab case instead of camel case. heroSection -> hero_section. 
+    -> CSS code will go the sequentially like: hero section, about section; 
+    -> Use comment in every section.
+    -> Don't add image in css file, use inline css for image. 
+    -> Try to use 2 or 3 colors and use variable
+*/
+
 
 /* BASIC SETUP*/
 *{
